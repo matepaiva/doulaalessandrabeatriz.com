@@ -1,6 +1,4 @@
-import PropTypes from 'prop-types';
 import React from 'react';
-import Lightbox from 'react-images';
 
 const Caption = ({ title, description }) => (
   <div>

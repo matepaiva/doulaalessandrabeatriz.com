@@ -1,10 +1,6 @@
-import PropTypes from 'prop-types'
 import React from 'react'
-import { Grid, Container } from 'semantic-ui-react'
+import { Grid } from 'semantic-ui-react'
 import { Section, ContactForm, ContactList, EndContainer } from 'components'
-
-const { Row } = Grid;
-const backgroundColor = '#eedac5';
 
 const Footer = () => (
   <EndContainer>

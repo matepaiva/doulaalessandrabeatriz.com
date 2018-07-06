@@ -1,6 +1,5 @@
-import PropTypes from 'prop-types'
 import React from 'react'
-import { Grid, Image, Card, Reveal, Button, Icon } from 'semantic-ui-react'
+import { Grid, Image, Reveal, Button, Icon } from 'semantic-ui-react'
 import { Section, LightBox } from 'components'
 
 const { Column } = Grid;
@@ -100,7 +99,7 @@ class Portfolio extends React.Component {
     const { numberOfItemsToDisplay = 6 } = this.props;
 
     const images = showAll ? photos : photos.slice(0, numberOfItemsToDisplay);
-    
+
     return (
       <Section title='Portfólio' description='Um pouquinho do que foi registrado durante esse percurso:' >
         <Grid style={{ paddingTop: '1.5rem' }} centered>

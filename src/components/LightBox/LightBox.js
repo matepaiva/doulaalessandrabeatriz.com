@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import React from 'react';
 import ReactImages from 'react-images';
 import Caption from './Caption';

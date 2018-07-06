@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types'
 import React from 'react'
 import { Image, Grid, Statistic } from 'semantic-ui-react'
 

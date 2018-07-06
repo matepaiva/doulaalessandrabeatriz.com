@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, Icon, Image } from 'semantic-ui-react';
+import { Card } from 'semantic-ui-react';
 import { DateTime } from 'luxon';
 import { Section } from 'components';
 import MediumPost from './MediumPost';
@@ -41,8 +41,7 @@ export default class MediumPosts extends Component {
                                 imageUrl={imageUrl}
                                 date={date}
                                 subtitle={subtitle}
-                                postUrl={postUrl}
-                                date={date} />
+                                postUrl={postUrl} />
                         );
                     })
                 }</Card.Group>

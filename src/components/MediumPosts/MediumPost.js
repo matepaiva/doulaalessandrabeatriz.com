@@ -1,11 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Card, Icon, Image } from 'semantic-ui-react';
-import { DateTime } from 'luxon';
-import { Section } from 'components';
-
-const MEDIUM_URL = 'https://medium.com';
-const MEDIUM_USERNAME = '@ale.beatrizs';
-const BASE_IMAGE_URL = 'https://cdn-images-1.medium.com/max/400/';
 
 const MediumPost = ({ title, imageUrl, subtitle, postUrl, date }) => (
     <Card>
