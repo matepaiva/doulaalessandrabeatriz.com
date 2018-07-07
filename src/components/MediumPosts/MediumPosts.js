@@ -6,7 +6,7 @@ import MediumPost from './MediumPost';
 
 const MEDIUM_URL = 'https://medium.com';
 const MEDIUM_USERNAME = '@ale.beatrizs';
-const BASE_IMAGE_URL = 'https://cdn-images-1.medium.com/max/400/';
+const BASE_IMAGE_URL = 'https://cdn-images-1.medium.com/max/300/';
 
 export default class MediumPosts extends Component {
     state = {};
