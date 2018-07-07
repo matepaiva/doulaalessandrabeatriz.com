@@ -4,7 +4,7 @@ import { Header, Body, Footer } from 'components'
 import 'styling/semantic.less'
 import './App.less'
 
-const title = 'Doula Alessandra Beatriz';
+const title = 'Doula Alessandra Beatriz :)';
 
 const App = () => (
   <div>
