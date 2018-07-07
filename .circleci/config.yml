@@ -35,3 +35,9 @@ jobs:
 
       # run tests!
       - run: npm run linter
+  deployment:
+    master:
+      branch: master
+      commands:
+        - echo 'deploying master branch'
+        - ssh -v $DROPLET_USER@$DROPLET_IP $DEPLOY_STEPS
