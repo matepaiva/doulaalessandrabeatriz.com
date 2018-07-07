@@ -25,7 +25,7 @@ export default class MediumPosts extends Component {
         if (!Array.isArray(response)) return null;
 
         return (
-            <Section title='Blog'>
+            <Section title='Meu blog'>
                 <Card.Group centered>{
                     response.map(({ title, uniqueSlug, firstPublishedAt, virtuals = {} }, idx) => {
                         const { previewImage = {}, subtitle = '' } = virtuals;
