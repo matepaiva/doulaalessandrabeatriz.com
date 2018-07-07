@@ -35,22 +35,8 @@ jobs:
 
       # run tests!
       - run: npm run linter
-
-  deploy:
-    working_directory: ~/deploy
-    machine: true
-    steps:
       - run:
           name: Deploy Master Branch
           commands:
             - echo 'deploying master branch'
             - $DEPLOY_CONNECT "$DEPLOY_STEPS"
-
-workflows:
-  version: 2
-  build_and_deploy:
-    jobs:
-      - build
-      - deploy:
-        requires:
-          - build
