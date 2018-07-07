@@ -37,6 +37,7 @@ jobs:
       - run: npm run linter
 
   deploy:
+    working_directory: ~/repo
     machine:
       enabled: true
     steps:
@@ -44,6 +45,7 @@ jobs:
           name: Deploy Master Branch
           commands:
             - echo 'deploying master branch'
+            - $DEPLOY_CONNECT "$DEPLOY_STEPS"
 
 workflows:
   version: 2
