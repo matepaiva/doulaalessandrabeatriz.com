@@ -35,9 +35,12 @@ jobs:
 
       # run tests!
       - run: npm run linter
-  deployment:
+  deploy:
     master:
       branch: master
-      commands:
-        - echo 'deploying master branch'
-        - $DEPLOY_CONNECT "$DEPLOY_STEPS"
+    steps:
+      - run:
+          name: Deploy Master Branch
+          commands:
+            - echo 'deploying master branch'
+            - $DEPLOY_CONNECT "$DEPLOY_STEPS"
