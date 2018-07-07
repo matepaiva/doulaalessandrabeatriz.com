@@ -6,9 +6,6 @@ import './App.less'
 
 const title = 'Doula Alessandra Beatriz :)';
 
-asdasdasd
-
-
 const App = () => (
   <div>
     <Helmet>
