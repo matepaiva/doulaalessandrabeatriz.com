@@ -3,6 +3,10 @@ import { Helmet } from 'react-helmet';
 import { Header, Body, Footer } from 'components'
 import 'styling/semantic.less'
 import './App.less'
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-122708724-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const title = 'Doula Alessandra Beatriz <3';
 

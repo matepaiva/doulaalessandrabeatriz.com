@@ -10,7 +10,7 @@ const Body = () => (
       <Grid.Row centered><About /></Grid.Row>
       <Grid.Row centered><Portfolio /></Grid.Row>
       <Grid.Row centered><Ways /></Grid.Row>
-      <Grid.Row><MediumPosts /></Grid.Row>
+      <Grid.Row><MediumPosts maxPosts={3}/></Grid.Row>
       <Grid.Row><Pricing /></Grid.Row>
     </Grid>
   </Container>

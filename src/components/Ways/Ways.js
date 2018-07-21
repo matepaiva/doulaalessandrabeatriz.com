@@ -73,7 +73,7 @@ const content = [
 ];
 
 const Ways = () => (
-  <Section title='Três formas de atuar no feminino' >
+  <Section title='formas de atuar no feminino' >
     <Segment.Group>
       {content.map(({ text, color }, key) => (
         <Segment color={color} textAlign='left' key={key}>

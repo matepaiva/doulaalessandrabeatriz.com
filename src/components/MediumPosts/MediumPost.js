@@ -1,8 +1,9 @@
 import React from 'react';
 import { Card, Icon, Image } from 'semantic-ui-react';
+import { isMobile } from 'react-device-detect';
 
 const MediumPost = ({ title, imageUrl, subtitle, postUrl, date }) => (
-    <Card>
+    <Card fluid={isMobile}>
         {imageUrl && <Image src={imageUrl} />}
         <Card.Content>
             <Card.Header>{title}</Card.Header>
